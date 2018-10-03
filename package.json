@@ -1,0 +1,29 @@
+{
+  "name": "@things-scene/bitmex",
+  "description": "bitmex component for things-scene",
+  "version": "0.1.0",
+  "things-scene": true,
+  "main": "src/index.js",
+  "author": "heartyoh",
+  "scripts": {
+    "serve": "things-shell",
+    "serve:dev": "things-shell-dev",
+    "migration:run": "things-shell-migration",
+    "migration:revert": "things-shell-migration --undo",
+    "build:client": "webpack --config node_modules/@hatiolab/things-shell/webpack.config.js",
+    "build": "webpack",
+    "prepublish": "webpack"
+  },
+  "devDependencies": {
+    "@hatiolab/things-shell": "*",
+    "@things-scene/chartjs": "*",
+    "@things-scene/form": "*",
+    "@things-scene/random": "*",
+    "@things-scene/restful": "*",
+    "@things-scene/table": "*"
+  },
+  "dependencies": {
+    "@hatiolab/things-scene": "*",
+    "crypto": "^1.0.1"
+  }
+}
