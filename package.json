@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "@hatiolab/things-scene": "*",
-    "crypto": "^1.0.1"
+    "crypto": "^1.0.1",
+    "react-stockcharts": "^0.7.8"
   }
 }
