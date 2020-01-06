@@ -1,7 +1,7 @@
 {
   "name": "@things-scene/bitmex",
   "description": "bitmex component for things-scene",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "things-scene": true,
   "main": "src/index.js",
   "author": "heartyoh",
